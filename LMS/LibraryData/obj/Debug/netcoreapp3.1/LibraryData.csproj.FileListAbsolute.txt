@@ -1,0 +1,12 @@
+D:\My projects\WAD\LMS\LibraryData\bin\Debug\netcoreapp3.1\LibraryData.deps.json
+D:\My projects\WAD\LMS\LibraryData\bin\Debug\netcoreapp3.1\LibraryData.dll
+D:\My projects\WAD\LMS\LibraryData\obj\Debug\netcoreapp3.1\LibraryData.csprojAssemblyReference.cache
+D:\My projects\WAD\LMS\LibraryData\obj\Debug\netcoreapp3.1\LibraryData.AssemblyInfoInputs.cache
+D:\My projects\WAD\LMS\LibraryData\obj\Debug\netcoreapp3.1\LibraryData.AssemblyInfo.cs
+D:\My projects\WAD\LMS\LibraryData\bin\Debug\netcoreapp3.1\LibraryData.runtimeconfig.json
+D:\My projects\WAD\LMS\LibraryData\bin\Debug\netcoreapp3.1\LibraryData.runtimeconfig.dev.json
+D:\My projects\WAD\LMS\LibraryData\bin\Debug\netcoreapp3.1\LibraryData.pdb
+D:\My projects\WAD\LMS\LibraryData\obj\Debug\netcoreapp3.1\LibraryData.csproj.CoreCompileInputs.cache
+D:\My projects\WAD\LMS\LibraryData\obj\Debug\netcoreapp3.1\LibraryData.dll
+D:\My projects\WAD\LMS\LibraryData\obj\Debug\netcoreapp3.1\LibraryData.pdb
+D:\My projects\WAD\LMS\LibraryData\obj\Debug\netcoreapp3.1\LibraryData.genruntimeconfig.cache
