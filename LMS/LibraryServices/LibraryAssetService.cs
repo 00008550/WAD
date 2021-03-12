@@ -30,16 +30,16 @@ namespace LibraryServices
         
 
         public LibraryAsset GetById(int id)
-        {   //return GetAll().FirstOrDefault(asset=>asset.Id==id);
-            return _context.LibraryAssets.Include(asset => asset.Status)
-                .Include(asset => asset.Location)
-                .FirstOrDefault(asset => asset.Id == id);
+        {   
+            return GetAll().FirstOrDefault(asset=>asset.Id==id);
+            
         }
 
         public LibraryBranch GetCurrentLocation(int id)
         {
-            //return GetById(id).Location;
-            return _context.LibraryAssets.FirstOrDefault(asset => asset.Id == id).Location;
+            
+            return GetById(id).Location;
+            
         }
 
         public string GetDeweyIndex(int id)

@@ -5843,11 +5843,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My projects\\WAD\\LMS\\LMS\\LMS.csproj",
+      "projectUniqueName": "D:\\My projects\\Github\\WAD\\LMS\\LMS\\LMS.csproj",
       "projectName": "LMS",
-      "projectPath": "D:\\My projects\\WAD\\LMS\\LMS\\LMS.csproj",
+      "projectPath": "D:\\My projects\\Github\\WAD\\LMS\\LMS\\LMS.csproj",
       "packagesPath": "C:\\Users\\Davron\\.nuget\\packages\\",
-      "outputPath": "D:\\My projects\\WAD\\LMS\\LMS\\obj\\",
+      "outputPath": "D:\\My projects\\Github\\WAD\\LMS\\LMS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5867,11 +5867,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\My projects\\WAD\\LMS\\LibraryData\\LibraryData.csproj": {
-              "projectPath": "D:\\My projects\\WAD\\LMS\\LibraryData\\LibraryData.csproj"
+            "D:\\My projects\\Github\\WAD\\LMS\\LibraryData\\LibraryData.csproj": {
+              "projectPath": "D:\\My projects\\Github\\WAD\\LMS\\LibraryData\\LibraryData.csproj"
             },
-            "D:\\My projects\\WAD\\LMS\\LibraryServices\\LibraryServices.csproj": {
-              "projectPath": "D:\\My projects\\WAD\\LMS\\LibraryServices\\LibraryServices.csproj"
+            "D:\\My projects\\Github\\WAD\\LMS\\LibraryServices\\LibraryServices.csproj": {
+              "projectPath": "D:\\My projects\\Github\\WAD\\LMS\\LibraryServices\\LibraryServices.csproj"
             }
           }
         }

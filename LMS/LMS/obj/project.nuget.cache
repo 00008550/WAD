@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lp1H1iFKGJneZnwG7CpgWFLmCwnOEkUSHFsMuvLlJevDK+Cw8YwttiDCItEmbd7ThcNDCcgWe1j7CX4cOQeMNA==",
+  "dgSpecHash": "vGVvlyake5oLtKxROFGijvmYvry01zDmShjEV9G0aY0cQKACiR8eYGzaXxaabMzojRQ2L5VVOKNAeVzLbw9pHA==",
   "success": true,
-  "projectFilePath": "D:\\My projects\\WAD\\LMS\\LMS\\LMS.csproj",
+  "projectFilePath": "D:\\My projects\\Github\\WAD\\LMS\\LMS\\LMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Davron\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Davron\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

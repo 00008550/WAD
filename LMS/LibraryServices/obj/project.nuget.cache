@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d3+j/vucNcf0g5JmGZ3/tm7Uc5kzcQU5B+a2a++cDuonlVfRwWmaAn8JPv+ZHyeaw54knZ/DziBtCIaHqtNT9w==",
+  "dgSpecHash": "ok8gqN9sACpWYrAlEkwOg9TGbChxehG/uWHJBXP/uQIWmlHfk5Vs/5SUkWK9okEAPF+zAe+UIam+UCdeAHahRw==",
   "success": true,
-  "projectFilePath": "D:\\My projects\\WAD\\LMS\\LibraryServices\\LibraryServices.csproj",
+  "projectFilePath": "D:\\My projects\\Github\\WAD\\LMS\\LibraryServices\\LibraryServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Davron\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Davron\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
