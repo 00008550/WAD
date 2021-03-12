@@ -79,3 +79,6 @@ D:\My projects\WAD\LMS\LMS\bin\Debug\netcoreapp3.1\Humanizer.dll
 D:\My projects\WAD\LMS\LMS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\My projects\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\LMS.csproj.CoreCompileInputs.cache
 D:\My projects\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\LMS.MvcApplicationPartsAssemblyInfo.cache
+D:\My projects\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Index.cshtml.g.cs
+D:\My projects\WAD\LMS\LMS\bin\Debug\netcoreapp3.1\LibraryServices.dll
+D:\My projects\WAD\LMS\LMS\bin\Debug\netcoreapp3.1\LibraryServices.pdb
