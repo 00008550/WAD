@@ -167,3 +167,5 @@ D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\LMS.dll
 D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\LMS.pdb
 D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\LMS.genruntimeconfig.cache
 D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Detail.cshtml.g.cs
+D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Checkout.cshtml.g.cs
+D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Hold.cshtml.g.cs
