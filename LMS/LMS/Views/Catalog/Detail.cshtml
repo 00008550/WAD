@@ -1,5 +1,9 @@
 ﻿@using LMS.Models.Catalog
 @model LMS.Models.Catalog.AssetDetailModel
+@{
+    ViewBag.Title = @Model.Title;
+}
+
 @section Scripts{
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -30,25 +34,30 @@
                 <p id="itemLocation">Last Location: @Model.CurrentLocation</p>
                 @if (Model.Status == "Checked Out")
                 {
-                    <p id="itemPatron">Checked Out By: @Model.PatronName</p>}
+                    <p id="itemPatron">Checked Out By: @Model.PatronName</p>
+                }
 
                 @if (@Model.Status != "Lost")
                 {
-                @if (@Model.Status == "Available")
-                {
-                <p><a class="btn btn-lg btn-info" role="button" asp-controller="Catalog" asp-action="Checkout" asp-route-id="@Model.AssetId">Check Out</a></p>}
+                    @if (@Model.Status == "Available")
+                    {
+                        <p><a class="btn btn-lg btn-info" role="button" asp-controller="Catalog" asp-action="Checkout" asp-route-id="@Model.AssetId">Check Out</a></p>
+                    }
 
                     @if (@Model.Status == "Checked Out")
                     {
-                    <p><a class="btn btn-lg btn-success" role="button" asp-controller="Catalog" asp-action="CheckIn" asp-route-id="@Model.AssetId">Check In</a></p>
-                        <p><a class="btn btn-lg btn-warning" role="button" asp-controller="Catalog" asp-action="Hold" asp-route-id="@Model.AssetId">Place Hold</a></p>}
+                        <p><a class="btn btn-lg btn-success" role="button" asp-controller="Catalog" asp-action="CheckIn" asp-route-id="@Model.AssetId">Check In</a></p>
+                        <p><a class="btn btn-lg btn-warning" role="button" asp-controller="Catalog" asp-action="Hold" asp-route-id="@Model.AssetId">Place Hold</a></p>
+                    }
 
-                                    <p><a class="btn btn-lg btn-danger" role="button" asp-controller="Catalog" asp-action="MarkLost" asp-route-id="@Model.AssetId">Mark Item Lost</a></p> }
+                    <p><a class="btn btn-lg btn-danger" role="button" asp-controller="Catalog" asp-action="MarkLost" asp-route-id="@Model.AssetId">Mark Item Lost</a></p>
+                }
 
-                                                else
-                                                {
-                                    <p>This item has been lost. It cannot be checked out.</p>
-                                                    <p><a class="btn btn-lg btn-success" role="button" asp-controller="Catalog" asp-action="MarkFound" asp-route-id="@Model.AssetId">Mark Item Found</a></p>}
+                else
+                {
+                    <p>This item has been lost. It cannot be checked out.</p>
+                    <p><a class="btn btn-lg btn-success" role="button" asp-controller="Catalog" asp-action="MarkFound" asp-route-id="@Model.AssetId">Mark Item Found</a></p>
+                }
 
             </div>
             <div class="col-md-4 detailInfo">
@@ -79,22 +88,24 @@
                         <th>Date Loaned</th>
                         <th>Date Returned</th>
                         <th>Card Id</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var checkout in @Model.CheckoutHistory)
                     {
-        <tr>
-            <td>
-                @checkout.CheckedOut
-            </td>
-            <td>
-                @checkout.CheckedIn
-            </td>
-            <td>
-                @checkout.LibraryCard.Id
-            </td>
-        </tr>}
+                        <tr>
+                            <td>
+                                @checkout.CheckedOut
+                            </td>
+                            <td>
+                                @checkout.CheckedIn
+                            </td>
+                            <td>
+                                @checkout.LibraryCard.Id
+                            </td>
+                        </tr>
+                    }
                 </tbody>
             </table>
         </div>
@@ -110,14 +121,15 @@
                 <tbody>
                     @foreach (var hold in @Model.CurrentHolds)
                     {
-        <tr>
-            <td>
-                @hold.HoldPlaced
-            </td>
-            <td>
-                @hold.PatronName
-            </td>
-        </tr>}
+                        <tr>
+                            <td>
+                                @hold.HoldPlaced
+                            </td>
+                            <td>
+                                @hold.PatronName
+                            </td>
+                        </tr>
+                    }
                 </tbody>
             </table>
         </div>

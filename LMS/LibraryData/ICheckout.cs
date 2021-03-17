@@ -19,7 +19,7 @@ namespace LibraryData
 
         void PlaceHold(int assetId, int libraryCardId);
         void CheckOutItem(int assetId, int libraryCardId);
-        void CheckInItem(int assetId, int libraryCardId);
+        void CheckInItem(int assetId);
         void MarkFound(int assetId);
         void MarkLost(int assetId);
         

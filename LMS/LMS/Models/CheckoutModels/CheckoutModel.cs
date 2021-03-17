@@ -7,7 +7,7 @@ namespace LMS.Models.CheckoutModels
 {
     public class CheckoutModel
     {
-        public string LibraryCard { get; set; }
+        public string LibraryCardId { get; set; }
         public string Title { get; set; }
         public int AssetId { get; set; }
         public string ImageUrl { get; set; }
