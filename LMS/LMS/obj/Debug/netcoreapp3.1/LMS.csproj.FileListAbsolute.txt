@@ -168,3 +168,5 @@ D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\LMS.genruntimeconfig.c
 D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Detail.cshtml.g.cs
 D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Checkout.cshtml.g.cs
 D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Hold.cshtml.g.cs
+D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Index.cshtml.g.cs
+D:\My projects\Github\WAD\LMS\LMS\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Detail.cshtml.g.cs
