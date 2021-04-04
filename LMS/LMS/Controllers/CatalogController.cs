@@ -127,5 +127,8 @@ namespace LMS.Controllers
             return RedirectToAction("Detail", new { id = assetId });
         }
 
+        
+        
+
     }
 }
