@@ -155,16 +155,32 @@ namespace LibraryServices
                 .FirstOrDefault();
         }
 
-        public void MarkFound(int assetId)
+        public void MarkFound(int id)
         {
+            var item = _context.LibraryAssets
+                .First(a => a.Id == id);
+
+            _context.Update(item);
+            item.Status = _context.Statuses.FirstOrDefault(a => a.Name == "Available");
             var now = DateTime.Now;
 
-            UpdateAssetStatus(assetId, "Available");
-            RemoveExistingCheckouts(assetId);
-            CloseExistingCheckoutHistory(assetId, now);
+            // remove any existing checkouts on the item
+            var checkout = _context.Checkouts
+                .FirstOrDefault(a => a.LibraryAsset.Id == id);
+            if (checkout != null) _context.Remove(checkout);
+
+            // close any existing checkout history
+            var history = _context.CheckoutHistories
+                .FirstOrDefault(h =>
+                    h.LibraryAsset.Id == id
+                    && h.CheckedIn == null);
+            if (history != null)
+            {
+                _context.Update(history);
+                history.CheckedIn = now;
+            }
+
             _context.SaveChanges();
-
-
         }
 
         private void UpdateAssetStatus(int assetId, string newStatus)
@@ -200,14 +216,20 @@ namespace LibraryServices
             }
         }
 
-       
 
-        public void MarkLost(int assetId)
+
+        public void MarkLost(int id)
         {
-            UpdateAssetStatus(assetId, "Lost");
+            var item = _context.LibraryAssets
+                .FirstOrDefault(a=>a.Id == id);
+
+            _context.Update(item);
+
+            item.Status = _context.Statuses.FirstOrDefault(a => a.Name == "Lost");
 
             _context.SaveChanges();
         }
+
 
         public void PlaceHold(int assetId, int libraryCardId)
         {
