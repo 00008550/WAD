@@ -1,0 +1,8 @@
+LMS/LMS/bin/
+LMS/LMS/obj/
+LMS/LibraryData/bin/
+LMS/LibraryData/obj/
+LMS/LibraryService/bin/
+LMS/LibraryService/obj/
+LMS/LMS/Scaffolding*
+LMS/LMS/wwwroot/lib/
