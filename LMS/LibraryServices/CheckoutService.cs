@@ -218,14 +218,14 @@ namespace LibraryServices
 
 
 
-        public void MarkLost(int id)
+        public void MarkLost(int Id)
         {
-            var item = _context.LibraryAssets
-                .FirstOrDefault(a=>a.Id == id);
+            var item = _context.LibraryAssets.FirstOrDefault(a => a.Id == Id);
+
 
             _context.Update(item);
-
             item.Status = _context.Statuses.FirstOrDefault(a => a.Name == "Lost");
+            
 
             _context.SaveChanges();
         }

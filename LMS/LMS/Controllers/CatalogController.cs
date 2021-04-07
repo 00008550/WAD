@@ -103,15 +103,15 @@ namespace LMS.Controllers
             return View(model);
         }
         
-        public IActionResult MarkLost(int assetId)
+        public IActionResult MarkLost(int Id)
         {
-            _checkouts.MarkLost(assetId);
-            return RedirectToAction("Detail", new { id = assetId });
+            _checkouts.MarkLost(Id);
+            return RedirectToAction("Detail", new { id = Id });
         }
-        public IActionResult MarFound(int assetId)
+        public IActionResult MarkFound(int Id)
         {
-            _checkouts.MarkFound(assetId);
-            return RedirectToAction("Detail", new { id = assetId });
+            _checkouts.MarkFound(Id);
+            return RedirectToAction("Detail", new { id = Id });
         }
 
         [HttpPost]
