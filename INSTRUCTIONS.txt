@@ -1,0 +1,3 @@
+First of All, Add migration using package manager console (Default project: Library Data), then update-database.
+After that, execute SQL file located in SQL folder. 
+Finally, Run the application.

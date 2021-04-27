@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oEIMhJoSr/XkZZVVTWz2fttasy+703qeXCorOl1l1L0bxxC4IgxVfS1poi3amKZfg0TjuknkWbPQcSU4hSM5Mg==",
+  "dgSpecHash": "XHtmliKaU+fD6gbcHAgjU0SBkVja/6svG/O6tWI6Fze7A/9higvJWf50lXINmfJ6aj0ean0rKpfr8rnWySp9lw==",
   "success": true,
-  "projectFilePath": "D:\\My projects\\Github\\WAD\\LMS\\LMS\\LMS.csproj",
+  "projectFilePath": "D:\\My projects\\Github\\WAD.WebApp.8550\\WAD\\LMS\\LMS\\LMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Davron\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Davron\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
