@@ -5804,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My projects\\Github\\WAD\\LMS\\LibraryData\\LibraryData.csproj",
+      "projectUniqueName": "D:\\My projects\\Github\\WAD.WebApp.8550\\WAD\\LMS\\LibraryData\\LibraryData.csproj",
       "projectName": "LibraryData",
-      "projectPath": "D:\\My projects\\Github\\WAD\\LMS\\LibraryData\\LibraryData.csproj",
+      "projectPath": "D:\\My projects\\Github\\WAD.WebApp.8550\\WAD\\LMS\\LibraryData\\LibraryData.csproj",
       "packagesPath": "C:\\Users\\Davron\\.nuget\\packages\\",
-      "outputPath": "D:\\My projects\\Github\\WAD\\LMS\\LibraryData\\obj\\",
+      "outputPath": "D:\\My projects\\Github\\WAD.WebApp.8550\\WAD\\LMS\\LibraryData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
