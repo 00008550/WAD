@@ -22,3 +22,15 @@ D:\My projects\Github\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibrarySer
 D:\My projects\Github\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.csproj.CopyComplete
 D:\My projects\Github\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.dll
 D:\My projects\Github\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.pdb
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\netcoreapp3.1\LibraryServices.deps.json
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\netcoreapp3.1\LibraryServices.dll
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\netcoreapp3.1\LibraryServices.pdb
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\netcoreapp3.1\LibraryData.dll
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\netcoreapp3.1\LibraryData.pdb
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.csproj.AssemblyReference.cache
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.AssemblyInfoInputs.cache
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.AssemblyInfo.cs
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.csproj.CoreCompileInputs.cache
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.csproj.CopyComplete
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.dll
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\netcoreapp3.1\LibraryServices.pdb

@@ -1,0 +1,15 @@
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\net5.0\LibraryServices.deps.json
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\net5.0\LibraryServices.dll
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\net5.0\ref\LibraryServices.dll
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\net5.0\LibraryServices.pdb
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\net5.0\LibraryData.dll
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\bin\Debug\net5.0\LibraryData.pdb
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\net5.0\LibraryServices.csproj.AssemblyReference.cache
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\net5.0\LibraryServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\net5.0\LibraryServices.AssemblyInfoInputs.cache
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\net5.0\LibraryServices.AssemblyInfo.cs
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\net5.0\LibraryServices.csproj.CoreCompileInputs.cache
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\net5.0\LibraryServices.csproj.CopyComplete
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\net5.0\LibraryServices.dll
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\net5.0\ref\LibraryServices.dll
+D:\My projects\Github\WAD.WebApp.8550\WAD\LMS\LibraryServices\obj\Debug\net5.0\LibraryServices.pdb
